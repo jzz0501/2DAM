@@ -78,5 +78,22 @@ public class Main {
         }
         */
 
+        /*
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Introduce servicio: ");
+        String s = sc.nextLine();
+
+        Process p = new ProcessBuilder("cmd.exe","/C","java src\\servicio.java").start();
+        OutputStream os = p.getOutputStream();
+        OutputStreamWriter osw = new OutputStreamWriter(os);
+        osw.write(s);
+        osw.close();
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream(),"GBK"));
+        String s2;
+        while((s2 = br.readLine())!=null) {
+            System.out.println(s2);
+        }
+        */
     }
 }
