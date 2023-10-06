@@ -12,13 +12,13 @@ public class Main {
 
         ProcessBuilder pb = new ProcessBuilder("cmd.exe","/C","java -jar jar\\TOUPPERCASE.jar");
         Process p = pb.start();
-        ProcessBuilder pb2 = new ProcessBuilder("cmd.exe","/C","wmplayer \"I:\\2DAM\\PGV\\ACT2\\mp4\\see you again.mp4\"");
+        ProcessBuilder pb2 = new ProcessBuilder("cmd.exe","/C","start wmplayer \"D:\\Project\\2DAM\\2DAM_PGV\\PGV_UT1ACT2\\mp4\\see you again.mp4\"");
         Process p2 = pb2.start();
 
         OutputStream os = p.getOutputStream();
         OutputStreamWriter osw = new OutputStreamWriter(os);
-        osw.write(s);
-        osw.close();
+        osw.write((s + '\n'));
+        osw.flush();
 
         InputStream is = p.getInputStream();
         InputStreamReader isr = new InputStreamReader(is);
@@ -28,7 +28,11 @@ public class Main {
         while((s2=br.readLine())!=null) {
             System.out.println(s2);
         }
-        */
+
+
+         */
+
+
 
 
         /*
@@ -95,5 +99,15 @@ public class Main {
             System.out.println(s2);
         }
         */
+
+
+       Process p = new ProcessBuilder("cmd.exe","/C","java -jar D:\\Project\\2DAM\\2DAM_PGV\\PGV_UT1ACT2\\out\\artifacts\\PGV_UT1ACT2_jar\\PGV_UT1ACT2.jar").start();
+       InputStreamReader isr = new InputStreamReader(p.getInputStream());
+       BufferedReader br = new BufferedReader(isr);
+       String s;
+       while ((s = br.readLine())!=null) {
+           System.out.println(s);
+       }
+       br.close();
     }
 }

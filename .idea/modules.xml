@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2DAM.iml" filepath="$PROJECT_DIR$/.idea/2DAM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2DAM_AED/AED_UT1ACT1/AED_UT1ACT1.iml" filepath="$PROJECT_DIR$/2DAM_AED/AED_UT1ACT1/AED_UT1ACT1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2DAM_AED/AED_UT1ACT2/AED_UT1ACT2.iml" filepath="$PROJECT_DIR$/2DAM_AED/AED_UT1ACT2/AED_UT1ACT2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2DAM_AED/AED_UT1ACT3/AED_UT1ACT3.iml" filepath="$PROJECT_DIR$/2DAM_AED/AED_UT1ACT3/AED_UT1ACT3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2DAM_PGV/PGV_UT1ACT1/PGV_UT1ACT1.iml" filepath="$PROJECT_DIR$/2DAM_PGV/PGV_UT1ACT1/PGV_UT1ACT1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2DAM_PGV/PGV_UT1ACT2/PGV_UT1ACT2.iml" filepath="$PROJECT_DIR$/2DAM_PGV/PGV_UT1ACT2/PGV_UT1ACT2.iml" />
+    </modules>
+  </component>
+</project>
