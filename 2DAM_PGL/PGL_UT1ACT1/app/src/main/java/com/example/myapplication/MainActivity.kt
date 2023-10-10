@@ -1,10 +1,12 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import androidx.core.view.get
 import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,10 +22,10 @@ class MainActivity : AppCompatActivity() {
         val provincia_Spinner = binding.spinnerProvincia
         provincia_Spinner.adapter = provincias
 
-        val dni_EditText = binding.editTextDni.text.toString()
-        val name_EditText = binding.editTextNombre.text.toString()
-        val apellido_EditText = binding.editTextApellido.text.toString()
-        val correo_EditText = binding.editTextCorreo.text.toString()
+        val dni_EditText = binding.editTextDni
+        val name_EditText = binding.editTextNombre
+        val apellido_EditText = binding.editTextApellido
+        val correo_EditText = binding.editTextCorreo
 
         val residente_CheckBox = binding.checkBoxResidente
 
@@ -43,6 +45,18 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        consultar_Button.setOnClickListener {
+            val intent = Intent(this@MainActivity, SecondActivity::class.java)
+            intent.putExtra("name",name_EditText.text.toString())
+            intent.putExtra("apellido",apellido_EditText.text.toString())
+            intent.putExtra("dni",dni_EditText.text.toString())
+            intent.putExtra("correo",correo_EditText.text.toString())
+            intent.putExtra("residente",residente_CheckBox.isChecked)
+            startActivity(intent)
+        }
+
+        sobremi_Button.setOnClickListener {
+        }
         /*
         sexoGroup.setOnCheckedChangeListener { radioGroup, checkId ->
             when(checkId) {
