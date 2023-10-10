@@ -16,7 +16,7 @@ public class Main {
         String s = new Scanner(System.in).nextLine();
 
         //3. El proceso padre (main de esta clase) crea segundo proceso que se ejecuta el fichero jar para ocultar los ficheros
-        Process p2 = new ProcessBuilder("java","-jar","./out/artifacts/PGV_UT1ACT3_jar/PGV_UT1ACT3.jar").start();
+        Process p2 = new ProcessBuilder("java","-jar","./jar/PGV_UT1ACT3.jar").start();
 
         //4. Obtener el flujo de salida de segundo proceso para pasar la ruta de carpeta introducido por proceso padre al proceso hijo
         OutputStreamWriter osw = new OutputStreamWriter(p2.getOutputStream());
