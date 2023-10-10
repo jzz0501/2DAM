@@ -7,6 +7,7 @@
   <TextView
       android:layout_width="300dp"
       android:layout_height="75dp"
+      android:gravity="center"
       android:text="ZONGZHEN"
       android:id="@+id/title"
       />
@@ -22,6 +23,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:id="@+id/editText_nombre"
+
         />
     <EditText
         android:layout_width="0dp"
@@ -55,48 +57,61 @@
         />
   </LinearLayout>
   <RadioGroup
-      android:layout_width="match_parent"
+      android:layout_width="350dp"
       android:layout_height="75dp"
       android:gravity="center"
+      android:id="@+id/sexoGroup"
       android:orientation="horizontal">
     <RadioButton
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_weight="1"
+        android:text="Masculino"
         android:id="@+id/radioButton_femenino"
         />
     <RadioButton
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_weight="1"
+        android:text="Femenino"
         android:id="@+id/radioButton_masculino"
         />
     <RadioButton
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_weight="1"
+        android:text="No binario"
         android:id="@+id/radioButton_nobinario"
         />
   </RadioGroup>
   <LinearLayout
+      android:layout_marginTop="30dp"
       android:layout_width="match_parent"
       android:layout_height="50dp"
       android:orientation="horizontal"
       android:gravity="center">
     <CheckBox
+        android:layout_marginStart="30dp"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_weight="2"
         android:id="@+id/checkBox_residente"
         />
     <Spinner
+        android:id="@+id/spinner_provincia"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_weight="3"
-        android:id="@+id/spinner_provincia"
-        />
+        android:layout_weight="3" />
   </LinearLayout>
+  <TextView
+      android:layout_marginTop="20dp"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:layout_marginStart="80dp"
+      android:id="@+id/resultProvincia"
+      />
   <LinearLayout
+      android:layout_marginTop="30dp"
       android:layout_width="match_parent"
       android:layout_height="50dp"
       android:orientation="horizontal"
@@ -105,12 +120,18 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_weight="1"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="CONSULTAR"
         android:id="@+id/button_consultar"
         />
     <Button
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_weight="1"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="SOBRE MI"
         android:id="@+id/button_sobremi"
         />
   </LinearLayout>
