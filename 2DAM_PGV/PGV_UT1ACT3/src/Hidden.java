@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
-//Clase para hacer el fichero de jar, ruta ---> PGV_UT1ACT3\out\artifacts\PGV_UT1ACT3_jar\PGV_UT1ACT3.jar
+//Clase para hacer el fichero de jar, ruta ---> PGV_UT1ACT3\jar\PGV_UT1ACT3.jar
 public class Hidden {
 
     public static void main(String[] args) throws IOException {
