@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79818598-7a15-4a78-b5ef-fca66968df65" name="Changes" comment="" />
+    <list default="true" id="79818598-7a15-4a78-b5ef-fca66968df65" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/java/com/example/myapplication/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/java/com/example/myapplication/SecondActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/java/com/example/myapplication/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/java/com/example/myapplication/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/java/com/example/myapplication/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/layout/activity_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DAM_PGL/PGL_UT1ACT1/settings.gradle.kts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +79,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/2DAM/2DAM_PGV/PGV_UT1ACT3"
+    "last_opened_file_path": "G:/IdeaProjects/2DAM/2DAM_PGV/PGV_UT1ACT1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
