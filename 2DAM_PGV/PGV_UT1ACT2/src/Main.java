@@ -28,11 +28,7 @@ public class Main {
         while((s2=br.readLine())!=null) {
             System.out.println(s2);
         }
-
-
          */
-
-
 
 
         /*
