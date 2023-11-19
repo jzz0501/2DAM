@@ -2,16 +2,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Tenedor tenedor1x5 = new Tenedor("Tenedor 1x5");
-        Tenedor tenedor2x5 = new Tenedor("Tenedor 2x5");
-        Tenedor tenedor3x5 = new Tenedor("Tenedor 3x5");
-        Tenedor tenedor4x5 = new Tenedor("Tenedor 4x5");
-        Tenedor tenedor5x5 = new Tenedor("Tenedor 5x5");
+        Tenedor between1_2 = new Tenedor("1_2");
+        Tenedor between2_3 = new Tenedor("2_3");
+        Tenedor between3_4 = new Tenedor("3_4");
+        Tenedor between4_5 = new Tenedor("4_5");
+        Tenedor between5_1 = new Tenedor("5_1");
 
-        Filosofo filosofo1 = new Filosofo(tenedor5x5,tenedor1x5,"filosofo1");
-        Filosofo filosofo2 = new Filosofo(tenedor5x5,tenedor1x5,"filosofo2");
-        Filosofo filosofo3 = new Filosofo(tenedor5x5,tenedor1x5,"filosofo3");
-        Filosofo filosofo4 = new Filosofo(tenedor5x5,tenedor1x5,"filosofo4");
-        Filosofo filosofo5 = new Filosofo(tenedor5x5,tenedor1x5,"filosofo5");
+        new Filosofo("Filosofo 1", between5_1, between1_2).start();
+        new Filosofo("Filosofo 2", between1_2, between2_3).start();
+        new Filosofo("Filosofo 3", between2_3, between3_4).start();
+        new Filosofo("Filosofo 4", between3_4, between4_5).start();
+        new Filosofo("Filosofo 5", between4_5, between5_1).start();
+
+
     }
 }
